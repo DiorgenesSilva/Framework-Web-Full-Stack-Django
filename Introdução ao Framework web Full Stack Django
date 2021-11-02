@@ -1,0 +1,235 @@
+#FRAMEWORK WEB FULL STACK DJANGO
+print("""
+A HISTORIA DO DJANGO
+O nome Django foi dado graças ao musico Django Heyhart,ele foi criado
+em 2005 pelos desenvolvedores  ambram Holloward e Samuel Uilinson
+Eles trabalhavam em um jornal eletronico  na cidade de Lauence no Cansas nos U.S.A
+Eles precisam criar um sistema que permitissse criar noticias muito rapido
+Para que o site fosse atualizado com uma frequencia muito grande
+Essa motivação acabou  criano assim o grande lema do Framework djando
+Que dia : " Framework para perfeccionistas  que possuem prazo"
+E faz todo sentido no mundo da noticia se voce colocar uma noticia
+que vai estar defazada e ja nao vai gerar receita para o jornal que ele trabalhava 
+Entao assim foi feito e o Django continua entregando oque promete
+Web Sites muito rapidos  e com qualidade 
+
+O QUE É FRAMEWORK ??
+È um conjunto de passos ordenados vizando resolver um problema
+
+MAS QUE PROBLEMAS O DJANGO RESOLVE ?
+Podemos ver ja pelo seu segundo nome Web,ou seja
+Ele vai resolver problemas que costumam aparecer durante uma aplicação Web 
+
+MAS QUE PROBLEMAS SÃO ESSES ?
+Por exemplo o primeiro problema é o tratamnto do protocolo HTTP,simplificando basicamente
+quado voce vai lá no navegador escreve um endereço e aperta ENTER
+VOque o navegador esta fazendo uma requisição 
+Entao o servidor recebe esta requisição esse aquico e extrai as informaçãoes dessa requisição
+E apartir dai começa a criar uma resposta e devolve esta resposta para o usuario
+
+OUTRO PROBLEMA RESOLVIDO PELO FRAMEWORK WEB É O ROTEAMENTO
+Tudo que aparece apos a barra vai até o ponto de interrogação
+HTTP /caminho-da-pagina?foo=bar
+De acordo com a rota ou caminho da url que o usuario acessar
+o Frawork vai delegar a  execução e o tratamento de dados ara uma função
+exp0ecífica dentro do servidor.
+Entao basicamente é ele que  orquestra e organiza todo  esse fluxo de informaçoes.
+Com as varias requisições chegando ,sendo mapeadas para  respectivas funções
+E produzindo respostas ,para os clientes dessas requisições
+
+SABER OQUE A FERRAMENTA FAZ 
+Então é muito importante que se entenda s ferramenta que voce usa
+ou o Framework que voce usa  no dia a dia ,qual  o problema que ele resolve
+Parece obvio ne ?  Ma s existem muitos programadores experientes ,que nao
+sabe que tipo de problema a ferramenta que ele utiliza resolve
+E isso acaba causando uma porção de problemas de aprendizado
+
+ESSES SAO OS 2 PROBLEMAS BASICOS NA PARTE DE PROGRAMAÇÃO WEB
+REQUEST RESPONSE e ROTEAMENTO
+
+MAS DEVEMOS ENTAO LEMBRAR DATERCIRA PALAVRA QUE DEFINE O DJANGO FULL STACK
+Oque quer dizer FULL STACK ?
+Stack em programação e desenvolvimento quer dizer :
+O conjunto de tecnologias que voce utiliza ,ou nesse caso , o  conjunto de problemas que voce resolve .
+A palavra Full no Ingles quer dizer :> Vem por completo,basicamento o Django vai tentar resolver
+todos os problemas muito comunus na construção de aplicações web.
+
+QUAIS SERIAM ESSSES PROBLEMAS ?
+
+SISTMAS DE TEMPLATES IMBUTIDO
+Primeiro deles é o SISTEMA DE TEMPLATE IMBUTIDO .
+Vai te ajudar a construir principalmente CSS,HTML e JAVASCRIPT
+E muitas vezes JASON se for construir APIs
+Esses sao são os formatos utilizados e entendidos pelo seu navegador
+O formatos ele lê e consegue então construir a tela  que voce vai ver em toda aplicação WEB
+
+FRAMEWORK PARA VALIDAÇÃO DE DADOS o FORMS 
+O Django vai oferecer tambem um Framework PARA VALIDAÇÃO DE DADOS
+Que é a parte de FORMS do Django
+
+ACESSO AO  BANCO DE DADOS o URM DO DJANGO 
+O Django te dá um Framework que lhe da acesso ao Banco de Dados 
+Sendo este a paret central dop FrameWork
+
+SISTEMA DE MIGRAÇÕES
+Dentro desse conjunto de soluções ele vai te oferecer 
+um sistema de migrações ,que vai te ajudar  na munutenção do formato de Dados
+que voce aramzena no seu banco de Dados
+Ainda nesse Banco de dados o Django temum sistema de administração simplesmente sensassional
+compoucas linhas de código voce pode ter acesso ao sistema inclusive INSERIR,EDITAR E APAGAR
+
+O Djando vai alem e dentro dele sistema para prevenção de ataques muitos comuns na Web
+Como:CROSSSIDE REQUEST FOBIN ou CROSSIDE SCRIPT
+Entao quando voce utiliza o Framework voce tem a garantia que vai estar relativamente protegido
+
+Além disso o Django tem um sistem a de Cash e de Internacionalização
+A tradução do seu Web sitye  para outras linguas
+
+PARA QUEM O DJAMGO É RECOMENDADO ?
+EXistem 2 casos 
+ORGANIZAÇÃO EM TABELAS BANCO DE DADOS SQL
+A primeira delas é se o seu  problema se encaixa
+no MUNDO DA ORGANIZAÇÃO EM TABELAS dos BANCOS DE DADOS SQL
+Pois o Django foi feito para este tipo de Banco de Dados
+
+PARA INICIANTES
+O segundo caso ,recmendado ´pe para os iniciantes.
+Sendo que ja nele existe a solução para varios problemas
+Aonde que de inicinio voce  pode estar sujeito a cair em muito ataques de segurança
+Ja que nao sabe ainda como se defender deles ,entao de inicio é melhor
+Sempre seguir as instruções de quem sabe mais que voce e ja deixou tudo pronto
+Decisões feitas por Desenvolverdores mais experienetes e ja passaram por isso centenas de vezes
+
+ORGANZAÇÃO DO DJANGO
+Um projeto do Django costuma ser organziado em APLICAÇÕES.
+Cada uma dessas Apps é composto por um pacote Python que resolve uma porção
+especifica das requisições dentro da sua aplicação.
+Cada uma das suas Apis por suas vez costuma estar divido  em um formato MVT .
+MODELO,VIEW,TEMPLATE 
+M MODELO
+Dentro do M ou Modelo basicamente aonde o usuario vai ter  a extruturas que representam os dados
+da sua aplicação,normalmente com acesso a  Banco de Dados , mas pode ter  qualquer outro
+tipo de modelo.  fazendo acesso a essa camada de modelo voce acesso
+a uma outra a de .
+
+V VIEW
+è a i aonde voce vai ter  o meio de campo para poder  extrair as informações da
+requisição Web,acessar  esses Dados e produzir  uma resposta ,para a produção
+dessa respostas ,basicamente voce vai ter acesso a camada d e:
+
+TEMPLATE
+Que vai te ajudar com a linguagem de templates do Django a produzir os
+artefatos que o seu navegador  consegue entender que costuma ser
+HTML,CSS e JAVA SCRIPT
+
+
+Entao o Djando sendo um Framework Fullstack Web ele resolve todos
+esses problemas que fooram citados acima se conectando.
+E ele foi feito com base no banco de dados CIRCLE  ou seja :
+A tabela de Dados desse tipo de Banco ela é central é o coração desse tipo de Framework
+Enao voce pode utilizar se o seu problema for medelado em tabelas
+Mas isso nao é problema ja que 90% das aplicações Web cnseguem ser modeladas com este Banco de Dados
+Quando estiver enfrentando um problema um pouco mais complexo ,derrepente
+xija que voce tenha Dados ieralircos de forma massiva .
+Ai voce precisa utilizar um um outro Banco como MONGO ou voce vai ter muita pesquisa em colunas
+ai  voce vai ter qutilizar outro banco como o CASSANDRA,nesses casos nao compensa
+Pois o Django so acessa base de Dados tabular
+include
+
+QUANDO VOCE NAO VAI UTILIZAR O DJANGO ?
+Quando o seu problema nao cabe dentro de um banco de dados Relacional SQL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
